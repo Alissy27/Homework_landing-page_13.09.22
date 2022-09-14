@@ -5,8 +5,8 @@
 }
 
 header {
-    position: fixed;
-    top: 0;
+   /* position: fixed;
+    top: 0;*/
     width: 100%;
     min-height: 75px;
     padding: 0px 20px;
@@ -15,6 +15,11 @@ header {
     align-items: center;
     background-color: rgb(183, 250, 219);
     z-index: 1;
+}
+
+#nav-bar {
+    position: fixed;
+    top: 0;
 }
 
 #header-img {
@@ -64,10 +69,6 @@ p {
     height: 315px;
     border: 0;
 }
-
-/*#nav-bar {
-    position: fixed;
-}*/
 
 @media (max-width: 1200px) {
 
